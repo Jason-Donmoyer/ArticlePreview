@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  /* Brealpoints */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* Colors */
+  --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+  --desaturatedDarkBlue: hsl(214, 17%, 51%);
+  --grayishBlue: hsl(212, 23%, 69%);
+  --lightGrayishBlue: hsl(210, 46%, 95%);
+
+  /* Body Copy */
+  --bodyFontSize: 13px;
+
+  /* Headings */
+  --headingFontFamily: 'Manrope', sans-serif;
+  --fontweightMedium: 500;
+  --fontweightBold: 700;
+
+  /* Icons */
+  --fb: url('../images/icon-facebook.svg');
+
+}
+
+#facebook {
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+  background-image: var(--fb);
+}
